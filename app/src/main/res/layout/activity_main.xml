@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.hd.cuterecorderTest.MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="recorder Test" />
+
+    <Button
+        android:id="@+id/btn_recorder_start"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="开始录制" />
+
+    <Button
+        android:id="@+id/btn_recorder_stop"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="结束录制" />
+
+    <TextView
+        android:id="@+id/tv_output_file"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="输出路径"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/tv_voice_level"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="当前音量"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/tv_record_time"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="录制时间"
+        android:textSize="16sp" />
+
+</LinearLayout>
